@@ -1,6 +1,9 @@
 from mybox import MyBox
+from myclass import my_point
 
-box = MyBox()
+a = my_point(5,6)
+b = my_point(1,2)
+box = MyBox([a,b])
 
 box.add('One')
 box.add(2)
