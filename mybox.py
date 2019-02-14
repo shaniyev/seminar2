@@ -1,10 +1,8 @@
 from myboxiterator import MyBoxIterator
-from myclass import my_point
 
 class MyBox():
     def __init__(self):
         self.items = list()
-        self.point = my_point()
 
     def __len__(self):
         return len(self.items)
