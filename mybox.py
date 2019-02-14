@@ -30,3 +30,4 @@ class MyBox():
 # - remove(obj) method that removes the specified object from the container;
 # - contains(obj) method that checks whether the specified object is in the container;
 # - iterator() method that returns an iterator over the objects in the container;
+ 
